@@ -93,7 +93,7 @@ TBD
 
 ## Doxygen Guide
 
-TB
+TBD
 
 ## Contribution Guide
 
@@ -101,9 +101,9 @@ TB
 
 2. Please use meaningful and relevant commits message when you commit your changes on this repo.
 
-3. You can learn basic of Git [here](https://www.atlassian.com/git). For further assistance on Git you can contact members of programming division to help you. Thank you!.
+3. You can learn basic of Git [here](https://www.atlassian.com/git). For further assistance on Git you can contact members of programming division to help you.
 
-4. Your Contributions Did Matter!
+4. Thank You! Your Contributions Did Matter!
 
 ## Help
 
