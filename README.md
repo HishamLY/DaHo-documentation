@@ -1,4 +1,4 @@
-# Dago Hoogeschool 2018 Documentation
+# Dago Hoogeschool 2018 Code Documentation
 
 This is the central repository for documenting the code used in KRI 2018 by Dago Hoogeschool.
 
@@ -6,7 +6,7 @@ This is the central repository for documenting the code used in KRI 2018 by Dago
 
 First, you must install a **decent text editor** like VSCode, Atom, Sublime, or Notepad++. Please **AVOID** things like **Geany**, **WordPad**, others embedded text editor, or even **Notepad** to do the code documentation.
 
-This guide assumes you have **basic understanding** over `C++` language and will cover how to setup VSCode, Atom, and Sublime to do a good documentation on the code. Remember to **USE** `C++11` to do the documentation and not `C++14` or `C++17`.
+This guide assumes you have **basic understanding** over `C++` language and will cover how to setup VSCode, Atom, and Sublime to do a good documentation on the code. Please use UNIX based OS like Linux or MacOS, if you use Windows don't forget to convert the line ending from `CRLF` to `LF` in the text editor
 
 ## Our Code Conventions
 
@@ -25,6 +25,8 @@ In short, here are the following guides that must be used :
 * Use meaningful and relevant **variable** or **method name** :D (Tentative).
 
 * Use `foo = int(bar)` instead of `foo = (int)bar` to convert the RHS type into Integer,
+
+* Always put newline at the **End of File** (EOF).
 
 * All block of code will look like this.
 
@@ -99,11 +101,13 @@ TBD
 
 1. If you don't have access to this repo, please contact Hisham to grant you access to this repository.
 
-2. Please use meaningful and relevant commits message when you commit your changes on this repo.
+2. Please use `git add <filename1> <filename2>` instead of `git add .` to add your changes to Git.
 
-3. You can learn basic of Git [here](https://www.atlassian.com/git). For further assistance on Git you can contact members of programming division to help you.
+3. Please use meaningful and relevant commits message when you commit your changes on this repo.
 
-4. Thank You! Your Contributions Did Matter!
+4. You can learn basic of Git from [Atlassian](https://www.atlassian.com/git). For further assistance on Git you can contact members of programming division to help you.
+
+5. Thank You! Your Contributions Did Matter!
 
 ## Help
 
