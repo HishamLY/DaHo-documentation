@@ -6,7 +6,7 @@ This is the central repository for documenting the code used in KRI 2018 by Dago
 
 First, you must install a **decent text editor** like VSCode, Atom, Sublime, or Notepad++. Please **AVOID** things like **Geany**, **WordPad**, others embedded text editor, or even **Notepad** to do the code documentation.
 
-This guide assumes you have **basic understanding** over `C++` language and will cover how to setup VSCode, Atom, and Sublime to do a good documentation on the code. Please use UNIX based OS like Linux or MacOS, if you use Windows don't forget to convert the line ending from `CRLF` to `LF` in the text editor
+This guide assumes you have **basic understanding** over `C++` language and will cover how to setup VSCode to do a good documentation on the code. Please use UNIX based OS like Linux or MacOS, if you use Windows don't forget to convert the line ending from `CRLF` to `LF` in the text editor.
 
 ## Our Code Conventions
 
@@ -36,6 +36,7 @@ In short, here are the following guides that must be used :
     Class Foo {
       public:
         Foo();
+
       private:
         int SumOfTwoInt(int a, int b);
     }l;
@@ -83,15 +84,13 @@ Don't forget to change the word wrap settings to in VSCode to see if the code is
 
 Enable the `Render Whitespace` feature in the VSCode to see any trailing whitespace on any line of code. To enable the `Render Whitespace` you can go to `View > Toggle Render Whitespace`.
 
+Enable settings in VSCode to insert the newline at the End of File (**EOF**) when saving file with
+
+```json
+  "files.insertFinalNewline": true
+```
+
 Any editor settings that don't related to the documentation can be edited to make yourself comfortable to do the coding :).
-
-### Sublime
-
-TBD
-
-### Atom
-
-TBD
 
 ## Doxygen Guide
 
