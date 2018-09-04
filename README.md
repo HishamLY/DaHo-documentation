@@ -39,7 +39,8 @@ In short, here are the following guides that must be used :
 
       private:
         int SumOfTwoInt(int a, int b);
-    }l;
+    };
+
   ```
 
   * For conditional
@@ -60,6 +61,7 @@ In short, here are the following guides that must be used :
         ...
       }
     }
+    
   ```
 
 ## How to Setup Text Editor
